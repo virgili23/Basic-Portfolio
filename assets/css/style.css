@@ -1,0 +1,163 @@
+
+.header {
+    border: 1px solid #cccccc;
+    margin-left: 0;
+    margin-right: 0;
+    height: 90px;
+    background-color: white;
+    position: sticky;
+    
+
+}
+
+.nameandlink {
+    background-color: #ffffff;
+    height: 90px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#name {
+    background-color: #4aaaa5;
+    height: 90px;
+    width: 250px;
+    float: left;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#links{
+    background-color: #ffffff;
+    height: 90px;
+    width: 350px;
+    float: right;
+
+}
+
+.link_btn{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+
+  }
+
+.link {
+    float: left;
+}
+
+a.link{
+    
+        display: inline-block;
+        color: black;
+        background-color: #ffffff;
+        text-align: center;
+        text-decoration: none;
+        padding: 31px 31px;
+        margin-right: 0px;
+        margin-left: 1px;
+        margin-top: 5px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+      }
+
+li a:hover { 
+    background-color: #d9d9d9;
+}
+
+
+.bigpage {
+    clear: both;
+    margin-left: 0;
+    margin-right: 0;
+    height: 655px;
+    
+    padding-top: 30px;
+    
+   
+ 
+    
+    background-image: url('assets/images/circles-light.png');
+
+}
+
+.page {
+
+    background-color: #ffffff;
+    width: 960px;
+    height: 580px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dddddd;
+    
+
+   
+    
+   
+
+}
+
+
+
+#p{
+    margin-left: 250px;
+    margin-right: 20px;
+    margin-top: 30px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    
+    height: 450px;
+   
+
+}
+
+.about{
+    color: #4aaaa5;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+img {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.footer {
+    background-color: #4aaaa5;
+    margin-right: 0;
+    margin-left: 0;
+    height: 5px;
+}
+
+.footer2 {
+    background-color: #666666;
+    margin-right: 0;
+    margin-left: 0;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.white {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* I need to add titles to the portfolio images, I tried adding <div> tags inside the <img> tags,
+but it did not work, I tried the other way around too to no avail. Then, I tried adding text
+to said <img> tags but it would just go elsewhere on the page. 
+
+On the contact page, I wanted to make the message board a lot bigger, I tried size, width and height
+properties to no avail, and could not find the solution on w3c, either.*/
+
+
+
